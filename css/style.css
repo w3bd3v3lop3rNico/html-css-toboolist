@@ -10,19 +10,44 @@ img {
 .greybg {
     background-color: gainsboro;
 }
-/* header elements */
-.header__section {
-    background-color: white;
+.main-padding{
+    padding-top: 50px;
 }
-.header__title {
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding-left: 60px;
+}
+
+.blue-bg{
+    background-color: aqua;
+}
+/* header elements */
+.header-section {
+    background-color: white;
+    padding-left: 40px;
+}
+.header-title {
     display: inline-block;
     font-size: 70px;
-    text-align: center;
+    vertical-align: middle;
     
     
 }
-.header__logo {
+.header-logo {
     width: 70px;
     vertical-align:middle;
 
+}
+/* buttons section */
+.buttons-container{
+    padding: 10px 10px 10px;
+
+}
+.button {
+    font-size: 20px;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 5px;
 }
