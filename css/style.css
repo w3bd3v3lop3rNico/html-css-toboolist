@@ -7,22 +7,20 @@
 img {
     max-width: 100%;
 }
-.greybg {
+.grey-bg {
     background-color: gainsboro;
 }
 .main-padding{
     padding-top: 50px;
 }
 .container{
-    max-width: 1000px;
+    max-width: 700px;
     margin: 0 auto;
     background-color: white;
-    padding-left: 60px;
+    /* padding-left: 60px; */
 }
 
-.blue-bg{
-    background-color: aqua;
-}
+
 /* header elements */
 .header-section {
     background-color: white;
@@ -42,7 +40,7 @@ img {
 }
 /* buttons section */
 .buttons-container{
-    padding: 10px 10px 10px;
+    padding: 20px;
 
 }
 .button {
@@ -50,4 +48,34 @@ img {
     vertical-align: middle;
     padding: 10px;
     border-radius: 5px;
+}
+.blue-bg{
+    background-color: aqua;
+    color: white;
+    border-color: bisque;
+}
+.white-bg{
+    background-color: white;
+    color: grey;
+    border-color: bisque;
+}
+
+/* lists */
+
+ul, ol {
+    list-style: none;
+    padding: 0px;
+}
+.list-margin {
+    margin-top: 5px;
+}
+.left-padding{
+    padding-left: 20px;
+}
+.top-bottm-padd{
+    padding-top: 20px;
+    padding-bottom: 20px ;
+}
+.left-padding-listitems{
+    padding-left: 5px;
 }
