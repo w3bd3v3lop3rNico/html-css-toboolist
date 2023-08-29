@@ -1,0 +1,28 @@
+/* default resets */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.greybg {
+    background-color: gainsboro;
+}
+/* header elements */
+.header__section {
+    background-color: white;
+}
+.header__title {
+    display: inline-block;
+    font-size: 70px;
+    text-align: center;
+    
+    
+}
+.header__logo {
+    width: 70px;
+    vertical-align:middle;
+
+}
