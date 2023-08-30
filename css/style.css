@@ -97,7 +97,7 @@ menu {
     padding: 0px;
 }
 
-.icon{
+.icon {
     width: 10px;
     height: 10px;
     border: solid;
@@ -113,9 +113,8 @@ menu {
     color: green;
 }
 
-.editorial {
+.tag {
     display: inline-block;
-    background-color: rgb(0, 217, 255);
     color: white;
     width: 70px;
     height: 25px;
@@ -123,65 +122,29 @@ menu {
     vertical-align: middle;
     border-radius: 15px;
     padding-top: 3px;
+}
+
+.editorial {
+    background-color: rgb(0, 217, 255);
 
 }
 
 .goals {
-    display: inline-block;
     background-color: rgb(140, 0, 255);
-    color: white;
-    width: 70px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 15px;
-    padding-top: 3px;
+
 }
 
 .recruiting {
-    display: inline-block;
     background-color: rgb(0, 156, 47);
-    color: white;
-    width: 70px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 15px;
-    padding-top: 3px;
 }
 
 .mobile {
-    display: inline-block;
     background-color: rgb(240, 108, 0);
-    color: white;
-    width: 70px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 15px;
-    padding-top: 3px;
 }
 
 .website {
-    display: inline-block;
     background-color: rgb(240, 0, 228);
-    color: white;
-    width: 70px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 15px;
-    padding-top: 3px;
-}
 
 .sales {
-    display: inline-block;
     background-color: rgb(0, 240, 140);
-    color: white;
-    width: 70px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 15px;
-    padding-top: 3px;
 }
