@@ -1,105 +1,118 @@
-/* default resets */
+/* DEFAULT RESETS */
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
+
 img {
     max-width: 100%;
 }
+
 .grey-bg {
     background-color: gainsboro;
 }
-.main-padding{
+
+.padding-top-50 {
     padding-top: 50px;
 }
-.container{
+
+.container {
     max-width: 700px;
     margin: 0 auto;
     background-color: white;
     /* padding-left: 60px; */
 }
 
+.padding-20 {
+    padding: 20px;
+}
 
-/* header elements */
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.padding-left-20 {
+    padding-left: 20px;
+}
+
+.padding-top-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padding-left-5 {
+    padding-left: 5px;
+}
+
+.padding-bottom-20 {
+    padding-bottom: 20px;
+}
+
+/* HEADER  */
 .header-section {
     background-color: white;
     padding-left: 40px;
 }
+
 .header-title {
     display: inline-block;
     font-size: 70px;
     vertical-align: middle;
-    
-    
 }
+
 .header-logo {
     width: 70px;
-    vertical-align:middle;
-
+    vertical-align: middle;
 }
-/* buttons section */
-.buttons-container{
-    padding: 20px;
 
-}
-.button {
+/* BUTTONS */
+
+
+.btn {
     font-size: 20px;
     vertical-align: middle;
     padding: 10px;
     border-radius: 5px;
 }
-.blue-bg{
+
+.btn-primary {
     background-color: aqua;
     color: white;
     border-color: bisque;
 }
-.white-bg{
+
+.btn-default {
     background-color: white;
     color: grey;
     border-color: bisque;
 }
 
-/* lists */
+/* LISTS */
 
-ul, ol {
+ul,
+ol,
+menu {
     list-style: none;
     padding: 0px;
 }
-.list-margin {
-    margin-top: 5px;
+
+.icon{
+    width: 10px;
+    height: 10px;
+    border: solid;
+    border-radius: 50%;
+    border-width: 1px;
 }
-.left-padding{
-    padding-left: 20px;
-}
-.top-bottm-padd{
-    padding-top: 20px;
-    padding-bottom: 20px ;
-}
-.left-padding-listitems{
-    padding-left: 5px;
-}
-.padd-between-li {
-    padding-bottom: 20px;
-}
+
 .cross {
-    
-    width: 10px;
-    height: 10px;
-    border: solid red;
-    border-radius: 50%;
     color: red;
-    border-width: 1px;
-    
 }
+
 .check {
-    width: 10px;
-    height: 10px;
-    border: solid green;
-    border-radius: 50%;
     color: green;
-    border-width: 1px;
 }
+
 .editorial {
     display: inline-block;
     background-color: rgb(0, 217, 255);
@@ -110,8 +123,9 @@ ul, ol {
     vertical-align: middle;
     border-radius: 15px;
     padding-top: 3px;
-    
+
 }
+
 .goals {
     display: inline-block;
     background-color: rgb(140, 0, 255);
@@ -123,6 +137,7 @@ ul, ol {
     border-radius: 15px;
     padding-top: 3px;
 }
+
 .recruiting {
     display: inline-block;
     background-color: rgb(0, 156, 47);
@@ -134,6 +149,7 @@ ul, ol {
     border-radius: 15px;
     padding-top: 3px;
 }
+
 .mobile {
     display: inline-block;
     background-color: rgb(240, 108, 0);
@@ -145,6 +161,7 @@ ul, ol {
     border-radius: 15px;
     padding-top: 3px;
 }
+
 .website {
     display: inline-block;
     background-color: rgb(240, 0, 228);
@@ -156,6 +173,7 @@ ul, ol {
     border-radius: 15px;
     padding-top: 3px;
 }
+
 .sales {
     display: inline-block;
     background-color: rgb(0, 240, 140);
